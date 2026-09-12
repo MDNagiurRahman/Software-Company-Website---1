@@ -1,0 +1,557 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact Us - TechNova Solutions</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Top Header -->
+    <div class="top-header bg-dark text-white py-2">
+
+        <div class="container d-flex justify-content-between align-items-center">
+
+            <div>
+                <span class="me-3">
+                    <i class="bi bi-envelope"></i>
+                    info@technova.com
+                </span>
+
+                <span>
+                    <i class="bi bi-telephone"></i>
+                    +880 1234-567890
+                </span>
+            </div>
+
+            <div>
+
+                <a href="#" class="text-white me-2">
+                    <i class="bi bi-facebook"></i>
+                </a>
+
+                <a href="#" class="text-white me-2">
+                    <i class="bi bi-twitter-x"></i>
+                </a>
+
+                <a href="#" class="text-white me-2">
+                    <i class="bi bi-youtube"></i>
+                </a>
+
+                <a href="login.html" class="text-white">
+                    Login / Register
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg bg-white shadow-sm">
+
+        <div class="container">
+
+            <a class="navbar-brand fw-bold" href="index.html">
+                <i class="bi bi-code-slash"></i>
+                TechNova
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar">
+
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+
+
+            <div class="collapse navbar-collapse" id="mainNavbar">
+
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">
+                            Home
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html">
+                            Services
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="projects.html">
+                            Projects
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">
+                            About Us
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="contact.html">
+                            Contact
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">
+                            Login / Register
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+
+    <!-- Breadcrumb -->
+    <section class="bg-light py-4">
+
+        <div class="container">
+
+            <h1 class="fw-bold">
+                Contact Us
+            </h1>
+
+            <nav aria-label="breadcrumb">
+
+                <ol class="breadcrumb mb-0">
+
+                    <li class="breadcrumb-item">
+                        <a href="index.html">
+                            Home
+                        </a>
+                    </li>
+
+                    <li class="breadcrumb-item active">
+                        Contact
+                    </li>
+
+                </ol>
+
+            </nav>
+
+        </div>
+
+    </section>
+
+
+    <!-- Contact Section -->
+    <section class="py-5">
+
+        <div class="container">
+
+            <div class="text-center mb-5">
+
+                <h2 class="fw-bold">
+                    Get In Touch
+                </h2>
+
+                <p class="text-muted">
+                    Have a project in mind? Contact our team.
+                </p>
+
+            </div>
+
+
+            <div class="row g-4">
+
+                <!-- Contact Form -->
+                <div class="col-lg-7">
+
+                    <div class="card shadow-sm">
+
+                        <div class="card-body p-4">
+
+                            <h4 class="fw-bold mb-4">
+                                Send Us a Message
+                            </h4>
+
+                            <form id="contactForm">
+
+                                <!-- Name -->
+                                <div class="mb-3">
+
+                                    <label for="name" class="form-label">
+                                        Name
+                                    </label>
+
+                                    <input type="text" class="form-control" id="name" name="name"
+                                        placeholder="Enter your name" required>
+
+                                </div>
+
+
+                                <!-- Email -->
+                                <div class="mb-3">
+
+                                    <label for="email" class="form-label">
+                                        Email
+                                    </label>
+
+                                    <input type="email" class="form-control" id="email" name="email"
+                                        placeholder="Enter your email" required>
+
+                                </div>
+
+
+                                <!-- Subject -->
+                                <div class="mb-3">
+
+                                    <label for="subject" class="form-label">
+                                        Subject
+                                    </label>
+
+                                    <input type="text" class="form-control" id="subject" name="subject"
+                                        placeholder="Enter subject" required>
+
+                                </div>
+
+
+                                <!-- Message -->
+                                <div class="mb-3">
+
+                                    <label for="message" class="form-label">
+                                        Message
+                                    </label>
+
+                                    <textarea class="form-control" id="message" name="message" rows="6"
+                                        placeholder="Write your message" required></textarea>
+
+                                </div>
+
+
+                                <!-- Submit Button -->
+                                <button type="submit" class="btn btn-primary">
+
+                                    <i class="bi bi-send"></i>
+                                    Send Message
+
+                                </button>
+
+                            </form>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Direct Contact Details -->
+                <div class="col-lg-5">
+
+                    <div class="card shadow-sm h-100">
+
+                        <div class="card-body p-4">
+
+                            <h4 class="fw-bold mb-4">
+                                Contact Information
+                            </h4>
+
+
+                            <!-- Address -->
+                            <div class="d-flex mb-4">
+
+                                <div class="me-3">
+
+                                    <i class="bi bi-geo-alt fs-3"></i>
+
+                                </div>
+
+                                <div>
+
+                                    <h6 class="fw-bold">
+                                        Address
+                                    </h6>
+
+                                    <p class="mb-0">
+                                        123 Software Street,
+                                        Dhaka, Bangladesh
+                                    </p>
+
+                                </div>
+
+                            </div>
+
+
+                            <!-- Phone -->
+                            <div class="d-flex mb-4">
+
+                                <div class="me-3">
+
+                                    <i class="bi bi-telephone fs-3"></i>
+
+                                </div>
+
+                                <div>
+
+                                    <h6 class="fw-bold">
+                                        Phone
+                                    </h6>
+
+                                    <p class="mb-0">
+                                        +880 1234-567890
+                                    </p>
+
+                                </div>
+
+                            </div>
+
+
+                            <!-- Email -->
+                            <div class="d-flex mb-4">
+
+                                <div class="me-3">
+
+                                    <i class="bi bi-envelope fs-3"></i>
+
+                                </div>
+
+                                <div>
+
+                                    <h6 class="fw-bold">
+                                        Email
+                                    </h6>
+
+                                    <p class="mb-0">
+                                        info@technova.com
+                                    </p>
+
+                                </div>
+
+                            </div>
+
+
+                            <!-- Working Hours -->
+                            <div class="d-flex">
+
+                                <div class="me-3">
+
+                                    <i class="bi bi-clock fs-3"></i>
+
+                                </div>
+
+                                <div>
+
+                                    <h6 class="fw-bold">
+                                        Working Hours
+                                    </h6>
+
+                                    <p class="mb-0">
+                                        Saturday - Thursday
+                                        <br>
+                                        9:00 AM - 6:00 PM
+                                    </p>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Google Map -->
+    <section class="pb-5">
+
+        <div class="container">
+
+            <h3 class="fw-bold text-center mb-4">
+                Our Location
+            </h3>
+
+            <div class="ratio ratio-16x9">
+
+                <iframe src="https://www.google.com/maps?q=Dhaka,Bangladesh&output=embed" style="border:0;"
+                    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Big Footer -->
+    <footer class="bg-dark text-white pt-5 pb-4">
+
+        <div class="container">
+
+            <div class="row">
+
+                <!-- Company Info -->
+                <div class="col-lg-4 mb-4">
+
+                    <h4 class="fw-bold">
+                        <i class="bi bi-code-slash"></i>
+                        TechNova Solutions
+                    </h4>
+
+                    <p>
+                        We provide modern software development
+                        solutions for businesses and organizations.
+                    </p>
+
+                    <p>
+                        <i class="bi bi-envelope"></i>
+                        info@technova.com
+                    </p>
+
+                    <p>
+                        <i class="bi bi-telephone"></i>
+                        +880 1234-567890
+                    </p>
+
+                </div>
+
+
+                <!-- Quick Links -->
+                <div class="col-lg-4 mb-4">
+
+                    <h5 class="fw-bold">
+                        Quick Links
+                    </h5>
+
+                    <ul class="list-unstyled">
+
+                        <li>
+                            <a href="index.html" class="text-white text-decoration-none">
+                                Home
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="services.html" class="text-white text-decoration-none">
+                                Services
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="projects.html" class="text-white text-decoration-none">
+                                Projects
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="about.html" class="text-white text-decoration-none">
+                                About Us
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="contact.html" class="text-white text-decoration-none">
+                                Contact
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+
+                <!-- Newsletter -->
+                <div class="col-lg-4 mb-4">
+
+                    <h5 class="fw-bold">
+                        Newsletter
+                    </h5>
+
+                    <p>
+                        Subscribe to receive our latest updates.
+                    </p>
+
+                    <form>
+
+                        <div class="input-group">
+
+                            <input type="email" class="form-control" placeholder="Your email">
+
+                            <button class="btn btn-primary" type="submit">
+                                Subscribe
+                            </button>
+
+                        </div>
+
+                    </form>
+
+
+                    <div class="mt-3">
+
+                        <a href="#" class="text-white me-3">
+                            <i class="bi bi-facebook"></i>
+                        </a>
+
+                        <a href="#" class="text-white me-3">
+                            <i class="bi bi-twitter-x"></i>
+                        </a>
+
+                        <a href="#" class="text-white">
+                            <i class="bi bi-youtube"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <!-- Copyright Footer -->
+    <div class="bg-black text-white text-center py-3">
+
+        <p class="mb-0">
+            &copy; 2026 TechNova Solutions. All Rights Reserved.
+        </p>
+
+    </div>
+
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- External JavaScript -->
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
+```
