@@ -1,0 +1,428 @@
+/* ================================
+   General Styles
+================================ */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* ================================
+   Top Header
+================================ */
+
+.top-header {
+    font-size: 14px;
+}
+
+.top-header a {
+    transition: 0.3s;
+}
+
+.top-header a:hover {
+    opacity: 0.7;
+}
+
+
+/* ================================
+   Navigation
+================================ */
+
+.navbar {
+    min-height: 70px;
+}
+
+.navbar-brand {
+    font-size: 24px;
+}
+
+.navbar-brand i {
+    margin-right: 5px;
+}
+
+.navbar-nav .nav-link {
+    margin-left: 10px;
+    padding: 10px 15px;
+    transition: 0.3s;
+}
+
+/* Mouse hover effect */
+.navbar-nav .nav-link:hover {
+    background-color: #0d6efd;
+    color: white;
+    border-radius: 5px;
+}
+
+/* Active page */
+.navbar-nav .nav-link.active {
+    color: #0d6efd;
+    font-weight: bold;
+}
+
+
+/* ================================
+   Breadcrumb
+================================ */
+
+.breadcrumb a {
+    color: #0d6efd;
+}
+
+
+/* ================================
+   Banner / Carousel
+================================ */
+
+.carousel-item {
+    height: 600px;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.55);
+    padding: 25px;
+    border-radius: 8px;
+}
+
+.carousel-caption h1 {
+    font-size: 42px;
+    font-weight: bold;
+}
+
+
+/* ================================
+   General Sections
+================================ */
+
+section {
+    width: 100%;
+}
+
+section h2 {
+    margin-bottom: 10px;
+}
+
+
+/* ================================
+   Cards
+================================ */
+
+.card {
+    border: none;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12) !important;
+}
+
+.card-img-top {
+    height: 220px;
+    object-fit: cover;
+}
+
+
+/* ================================
+   Service Cards
+================================ */
+
+.service-card {
+    text-align: center;
+}
+
+.service-card i {
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+
+/* ================================
+   Project Cards
+================================ */
+
+.project-card img {
+    height: 220px;
+    object-fit: cover;
+}
+
+.project-card .card-body {
+    min-height: 200px;
+}
+
+
+/* ================================
+   Project Filter
+================================ */
+
+.project-filter {
+    position: sticky;
+    top: 20px;
+}
+
+.project-filter .list-group-item {
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.project-filter .list-group-item:hover {
+    background-color: #0d6efd;
+    color: white;
+}
+
+
+/* ================================
+   Project Gallery
+================================ */
+
+.project-main-image {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* Zoom effect */
+.zoom-image {
+    transition: transform 0.4s ease;
+    cursor: zoom-in;
+}
+
+.zoom-image:hover {
+    transform: scale(1.08);
+}
+
+.project-thumbnail {
+    width: 100px;
+    height: 70px;
+    object-fit: cover;
+    cursor: pointer;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.project-thumbnail:hover {
+    border-color: #0d6efd;
+}
+
+
+/* ================================
+   Technology Stack
+================================ */
+
+.tech-icon {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.tech-item {
+    text-align: center;
+    padding: 20px;
+}
+
+
+/* ================================
+   Testimonials
+================================ */
+
+.testimonial-card {
+    border-left: 4px solid #0d6efd;
+}
+
+.testimonial-card i {
+    font-size: 30px;
+}
+
+
+/* ================================
+   Team Members
+================================ */
+
+.team-card img {
+    height: 250px;
+    object-fit: cover;
+}
+
+.team-card {
+    text-align: center;
+}
+
+
+/* ================================
+   Contact Page
+================================ */
+
+.contact-info i {
+    font-size: 28px;
+}
+
+.contact-map iframe {
+    width: 100%;
+    min-height: 400px;
+    border: 0;
+}
+
+
+/* ================================
+   Buttons
+================================ */
+
+.btn {
+    transition: 0.3s;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+}
+
+
+/* ================================
+   Footer
+================================ */
+
+footer {
+    margin-top: 0;
+}
+
+footer a {
+    transition: 0.3s;
+}
+
+footer a:hover {
+    color: #0d6efd !important;
+}
+
+footer ul li {
+    margin-bottom: 8px;
+}
+
+footer .input-group {
+    max-width: 400px;
+}
+
+
+/* ================================
+   Copyright
+================================ */
+
+.bg-black {
+    background-color: #000;
+}
+
+
+/* ================================
+   Responsive Design
+================================ */
+
+/* Tablets */
+@media (max-width: 991px) {
+
+    .top-header .container {
+        flex-direction: column;
+        gap: 8px;
+        text-align: center;
+    }
+
+    .navbar-nav {
+        margin-top: 10px;
+    }
+
+    .navbar-nav .nav-link {
+        margin-left: 0;
+    }
+
+    .carousel-item,
+    .carousel-item img {
+        height: 500px;
+    }
+
+    .carousel-caption h1 {
+        font-size: 32px;
+    }
+
+    .project-filter {
+        position: static;
+    }
+}
+
+
+/* Mobile devices */
+@media (max-width: 576px) {
+
+    .top-header {
+        font-size: 12px;
+    }
+
+    .top-header .container {
+        padding: 5px 10px;
+    }
+
+    .top-header span {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    .navbar-brand {
+        font-size: 20px;
+    }
+
+    .carousel-item,
+    .carousel-item img {
+        height: 400px;
+    }
+
+    .carousel-caption {
+        padding: 15px;
+    }
+
+    .carousel-caption h1 {
+        font-size: 25px;
+    }
+
+    .carousel-caption p {
+        font-size: 14px;
+    }
+
+    .carousel-caption .btn {
+        font-size: 14px;
+    }
+
+    .project-main-image {
+        height: 300px;
+    }
+
+    .project-thumbnail {
+        width: 80px;
+        height: 60px;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    footer .input-group {
+        margin: auto;
+    }
+}
